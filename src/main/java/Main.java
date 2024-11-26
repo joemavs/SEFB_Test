@@ -25,6 +25,8 @@ public class Main {
         // Input lions into database
         Lion lion1 = new Lion("Simba",7,30);
         lions.add(lion1);
+
+        // Add all to map
         for (Lion lion : lions)
             panel.add(lion);
 //
@@ -32,6 +34,8 @@ public class Main {
         // Input keepers into database
         Keeper keeper1 = new Keeper("Geoff", "4392",80);
         keepers.add(keeper1);
+
+        // Add all to map
         for (Keeper keeper : keepers)
             panel.add(keeper);
 
@@ -39,6 +43,8 @@ public class Main {
         // Input drones into database
         Drone drone1 = new Drone("Monitor 1", "128MHz", 124);
         drones.add(drone1);
+
+        // Add all to map
 //        for (Drone drone : drones)
 //            panel.add(drone);
 
