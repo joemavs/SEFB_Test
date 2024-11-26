@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7499c2-ae94-495b-9b26-4fe6f64ff8a9" name="Changes" comment="- Setup gradle build">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Drone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Keeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LocationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="8b7499c2-ae94-495b-9b26-4fe6f64ff8a9" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732586547048</updated>
       <workItem from="1732586547451" duration="319000" />
-      <workItem from="1732610378822" duration="7443000" />
+      <workItem from="1732610378822" duration="7797000" />
     </task>
     <task id="LOCAL-00001" summary="- Setup gradle build">
       <option name="closed" value="true" />
@@ -166,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732586647653</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-">
+      <option name="closed" value="true" />
+      <created>1732620428535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732620428535</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-">
+      <option name="closed" value="true" />
+      <created>1732620438002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732620438002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Setup gradle build" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Setup gradle build" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>

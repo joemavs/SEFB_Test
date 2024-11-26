@@ -14,6 +14,8 @@ public class Main {
 
         ArrayList<Lion> lions = new ArrayList<Lion>();
         ArrayList<Keeper> keepers = new ArrayList<Keeper>();
+        ArrayList<Drone> drones = new ArrayList<Drone>();
+
 
         JFrame frame= new JFrame(gc);	// Create a new JFrame
         JPanel panel = new JPanel();
@@ -23,14 +25,27 @@ public class Main {
         // Input lions into database
         Lion lion1 = new Lion("Simba",7,30);
         lions.add(lion1);
-        panel.add(lion1);
+        for (Lion lion : lions)
+            panel.add(lion);
 //
 
         // Input keepers into database
         Keeper keeper1 = new Keeper("Geoff", "4392",80);
         keepers.add(keeper1);
-        panel.add(keeper1);
+        for (Keeper keeper : keepers)
+            panel.add(keeper);
+
+
+        // Input drones into database
+        Drone drone1 = new Drone("Monitor 1", "128MHz", 124);
+        drones.add(drone1);
+//        for (Drone drone : drones)
+//            panel.add(drone);
+
         frame.add(panel);
+
+
+
 
 
 

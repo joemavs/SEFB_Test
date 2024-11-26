@@ -7,6 +7,7 @@ public class Drone {
     private String radioFreq;
     private int tagID;
     Point locationPoint;
+    private String nameAndFreq;
 
     public Drone(String name, String radioFreq, int tagID){
         this.name = name;
@@ -19,10 +20,12 @@ public class Drone {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        this.nameAndFreq = name + ", " + radioFreq;
     }
 
     public void paint(Graphics g) {
         g.setColor(Color.BLACK);
         g.fillRect(locationPoint.x,locationPoint.y,3,3);
+        g.drawString(nameAndFreq,locationPoint.x+10,locationPoint.y+10);
     }
 }
